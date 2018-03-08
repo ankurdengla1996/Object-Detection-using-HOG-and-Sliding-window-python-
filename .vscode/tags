@@ -1,0 +1,71 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ans	../sliding_window.py	/^ans = loaded_model.predict(ftest)$/;"	kind:variable	line:51
+ap	../sliding_window.py	/^ap = argparse.ArgumentParser()$/;"	kind:variable	line:8
+args	../sliding_window.py	/^args = vars(ap.parse_args())$/;"	kind:variable	line:10
+classes	../train.py	/^classes = ['Background','Car','Chair','Gramophone','Guitar','Elephant','Garfield','Piano','Lamp','Ship']$/;"	kind:variable	line:14
+clf	../train.py	/^clf = svm.SVC()$/;"	kind:variable	line:8
+clone	../sliding_window.py	/^	clone = image.copy()$/;"	kind:variable	line:31
+conf	../sliding_window.py	/^conf = loaded_model.decision_function(ftest)$/;"	kind:variable	line:37
+file	../getfeatures.py	/^        file = pathfile + str(i)$/;"	kind:variable	line:27
+filepath	../sliding_window.py	/^filepath = '.\/svm_model.sav'$/;"	kind:variable	line:12
+filepath	../test.py	/^filepath = '.\/svm_model.sav'$/;"	kind:variable	line:36
+ftest	../sliding_window.py	/^ftest = []$/;"	kind:variable	line:19
+ftest	../test.py	/^ftest = []$/;"	kind:variable	line:23
+getfeatures.py	../getfeatures.py	1;"	kind:file	line:1
+h	../getfeatures.py	/^        h = hog.compute(im)$/;"	kind:variable	line:23
+h	../sliding_window.py	/^	h = hog.compute(window)$/;"	kind:variable	line:26
+h	../test.py	/^    h = hog.compute(im)$/;"	kind:variable	line:30
+h	../train.py	/^        h = np.load(path_in_str, mmap_mode=None, allow_pickle=True, fix_imports=True, encoding='ASCII')$/;"	kind:variable	line:21
+h2	../getfeatures.py	/^        h2 = [x for sublist in h for x in sublist]$/;"	kind:variable	line:25
+h2	../sliding_window.py	/^	h2 = [x for sublist in h for x in sublist]$/;"	kind:variable	line:27
+h2	../test.py	/^    h2 = [x for sublist in h for x in sublist]$/;"	kind:variable	line:32
+helpers.py	../helpers.py	1;"	kind:file	line:1
+hog	../getfeatures.py	/^hog = cv2.HOGDescriptor()$/;"	kind:variable	line:7
+hog	../sliding_window.py	/^hog = cv2.HOGDescriptor() $/;"	kind:variable	line:14
+hog	../test.py	/^hog = cv2.HOGDescriptor()$/;"	kind:variable	line:22
+hogpath	../getfeatures.py	/^    hogpath = '.\/HOGFeatures' + str(j) + '\/'$/;"	kind:variable	line:12
+i	../getfeatures.py	/^        i = i + 1$/;"	kind:variable	line:28
+i	../getfeatures.py	/^    i = 1$/;"	kind:variable	line:17
+i	../resize.py	/^        i = i + 1/;"	kind:variable	line:21
+i	../resize.py	/^    i = 1$/;"	kind:variable	line:14
+i	../test.py	/^    i = i + 1$/;"	kind:variable	line:18
+i	../test.py	/^i = 1$/;"	kind:variable	line:12
+im	../getfeatures.py	/^        im = cv2.imread(path_in_str)$/;"	kind:variable	line:22
+im	../resize.py	/^        im = Image.open(path_in_str)$/;"	kind:variable	line:17
+im	../test.py	/^    im = Image.open(path_in_str)$/;"	kind:variable	line:15
+im	../test.py	/^    im = cv2.imread(path_in_str)$/;"	kind:variable	line:29
+imResize	../resize.py	/^        imResize = im.resize((200,200), Image.ANTIALIAS)$/;"	kind:variable	line:18
+imResize	../test.py	/^    imResize = im.resize((200,200), Image.ANTIALIAS)$/;"	kind:variable	line:16
+image	../sliding_window.py	/^image = cv2.imread(args["image"])$/;"	kind:variable	line:16
+ind	../sliding_window.py	/^ind = 0$/;"	kind:variable	line:41
+loaded_model	../sliding_window.py	/^loaded_model =  joblib.load(filepath) $/;"	kind:variable	line:13
+loaded_model	../test.py	/^loaded_model =  joblib.load(filepath)$/;"	kind:variable	line:37
+max	../sliding_window.py	/^			max = conf[i][j]$/;"	kind:variable	line:46
+max	../sliding_window.py	/^max = -11$/;"	kind:variable	line:40
+path_in_str	../getfeatures.py	/^        path_in_str = str(path)$/;"	kind:variable	line:21
+path_in_str	../resize.py	/^        path_in_str = str(path)$/;"	kind:variable	line:16
+path_in_str	../test.py	/^    path_in_str = str(path)$/;"	kind:variable	line:14
+path_in_str	../test.py	/^    path_in_str = str(path)$/;"	kind:variable	line:28
+path_in_str	../train.py	/^        path_in_str = str(path)$/;"	kind:variable	line:20
+pathfile	../getfeatures.py	/^    pathfile = '.\/HOGFeatures' + str(j) + '\/HOGimage_'$/;"	kind:variable	line:10
+pathfile	../test.py	/^pathfile = '.\/Test\/HOG\/HOGimage_'$/;"	kind:variable	line:24
+pathlist	../getfeatures.py	/^    pathlist = Path('.\/Resize'+str(j)+'\/').glob('**\/*.jpg')$/;"	kind:variable	line:18
+pathlist	../resize.py	/^    pathlist = Path('.\/'+str(j)+'\/').glob('**\/*.jpg')$/;"	kind:variable	line:8
+pathlist	../test.py	/^pathlist = Path('.\/Test\/Images\/').glob('**\/*.jpg')$/;"	kind:variable	line:9
+pathlist	../test.py	/^pathlist = Path('.\/Test\/Resize\/').glob('**\/*.jpg')$/;"	kind:variable	line:25
+pathlist	../train.py	/^    pathlist = Path('.\/HOGFeatures'+str(j)+'\/').glob('**\/*.npy')$/;"	kind:variable	line:17
+pathresize	../resize.py	/^    pathresize = '.\/Resize' + str(j) + '\/' $/;"	kind:variable	line:9
+pathresize	../test.py	/^pathresize = '.\/Test\/Resize\/'$/;"	kind:variable	line:10
+pyramid	../helpers.py	/^def pyramid(image, scale=1.5, minSize=(30, 30)):$/;"	kind:function	line:3
+resize.py	../resize.py	1;"	kind:file	line:1
+sliding_window	../helpers.py	/^def sliding_window(image, stepSize, windowSize):$/;"	kind:function	line:21
+sliding_window.py	../sliding_window.py	1;"	kind:file	line:1
+test.py	../test.py	1;"	kind:file	line:1
+train.py	../train.py	1;"	kind:file	line:1
+x	../train.py	/^x = []$/;"	kind:variable	line:11
+y	../train.py	/^y = []$/;"	kind:variable	line:12
